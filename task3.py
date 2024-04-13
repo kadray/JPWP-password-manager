@@ -1,5 +1,4 @@
 import ttkbootstrap as ttk
-from ttkbootstrap.constants import *
 from ttkbootstrap.toast import ToastNotification
 
 
@@ -12,12 +11,12 @@ class ExerciseApp(ttk.Frame):
         self.input_score = ttk.IntVar(value=0)
 
         self.left_container = ttk.Frame(self)
-        self.left_container.pack(side="left", fill=Y)
+        self.left_container.pack(side="left")
 
         self.treeView = self.create_treeview()
 
         self.right_container = ttk.Frame(self)
-        self.right_container.pack(side="left", fill=Y)
+        self.right_container.pack(side="left")
 
         self.label_create(self.right_container, "Name:")
         self.entry_create(self.right_container, self.input_text)
@@ -43,10 +42,7 @@ class ExerciseApp(ttk.Frame):
 
     def create_treeview(self):
         tree = ttk.Treeview(master=self.left_container, bootstyle = "secondary", columns=["Name","Score"], show='headings')
-        tree.grid_configure(row=0,column=0,columnspan=4,rowspan=5,padx=20, pady=20)
-
-        tree.column("Name",anchor=CENTER)
-        tree.column("Score", anchor=CENTER)
+        tree.pack(padx=10, pady=10)
 
         tree.heading("Name", text="Name")
         tree.heading("Score", text="Score")
