@@ -6,5 +6,5 @@ Tasks for students
 <br> 
     Efekt modyfikacji powinien wyglądać w ten sposób:
 <br>
-
+![image](images/task4.png)
 
