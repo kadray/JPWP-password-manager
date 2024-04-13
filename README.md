@@ -3,6 +3,15 @@ Aby wykonać poniższe zadania należy zainstalować dodatkowe moduły do python
 ```
 pip install ttkbootstrap cryptography
 ```
+Na początku pilku `.py` należy zaimportować następujące elementy:
+```
+import ttkbootstrap as ttk
+import csv
+import os
+from ttkbootstrap.constants import *
+from ttkbootstrap.toast import ToastNotification
+from cryptography.fernet import Fernet
+```
 <h4><u>Każde kolejne zadanie opiera się na zadaniu poprzednim, także należy robić je po kolei.</u></h4>
 
 <h2>Zadanie 1</h2>
@@ -43,7 +52,6 @@ Efekt powinien być następujący:<br>
 <br>
 <b>Wskazówki:</b>
 <br>
-
 <i>Do umieszczenia widżeta obok widżeta, można użyć w pack `(side="left")`, na obu widżetach (<a href="https://www.pythontutorial.net/tkinter/tkinter-pack/">pomocny link</a>)</i>
 <br>
 
@@ -94,9 +102,9 @@ Efekt modyfikacji powinien wyglądać w ten sposób:
 
 <b>Wskazówki:</b>
 <br>
-<i>Funkcję `add_data` należy wywołać w `on_click_button`</i>
+<i>Funkcję `add_data` należy wywołać w funkcji dodającej element do treeview</i>
 <br>
-<i>Funkcję `get_data` należy wywołać w `create_treeview`</i>
+<i>Funkcję `get_data` należy wywołać w funkcji tworzącej treeview przy starcie aplikacji</i>
 <br>
 Czytanie z pliku csv:
 
