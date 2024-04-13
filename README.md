@@ -54,8 +54,10 @@ Efekt powinien być następujący:<br>
 <br>
 <i>Do umieszczenia widżeta obok widżeta, można użyć w pack `(side="left")`, na obu widżetach (<a href="https://www.pythontutorial.net/tkinter/tkinter-pack/">pomocny link</a>)</i>
 <br>
+
 <i>Do entry z liczbą lepiej nie używać `StringVar`, ale jego odpowiednika dla liczby `DoubleVar`.</i>
 <br> 
+
 <i>Pamiętaj o poprawnym wskazaniu parenta przy deklarowaniu widżeta!</i>
 <br>
 
@@ -76,8 +78,10 @@ Efekt powinien być następujący:<br>
 <br>
 <b>Wskazówki:</b>
 <br>
+
 <i>Do obsługi `toastNotification` należy zaimportować `from ttkbootstrap.toast import ToastNotification`</i>
 <br>
+
 <i>Żeby `.insert()` mógł dobrze działać warto wskazać mu `treeview`, do którego ma wrzucić rzecz na przykład tak: `self.treeView = self.create_treeview()`</i>
 <br>
 
