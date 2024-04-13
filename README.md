@@ -41,10 +41,6 @@ Ma to wyglądać w ten sposób:
 <img title="Zadanie 5" src="images/task5.png">
 <b>Wskazówki:</b>
 
-<i>Funkcję `add_data` należy wywołać w `on_click_button`</i>
-
-<i>Funkcję `get_data` należy wywołać w `create_treeview`</i>
-
 Funkcje szyfrujące:
 
 Generowanie klucza: tą funkcję wykonaj tylko <b>jeden raz</b> i zapisz wygenerowany klucz
