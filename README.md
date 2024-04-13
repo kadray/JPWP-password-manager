@@ -22,6 +22,8 @@ Na UPel wyślij zdjęcie działającego GUI wraz z konsolą.
 
 
 <h2>Zadanie 2</h2>
+<h3>Dodanie treeview, entry i zmiana ustawienia widżetów.</h3>
+
 Kod z poprzedniego zadania należy edytować w następujący sposób:
 <ul>
 <li>Stworzyć dwa kontenery <b>frame</b>, które będą obok siebie. </li>
@@ -48,6 +50,8 @@ Efekt powinien być następujący:<br>
 Na UPel wyślij zdjęcie działającego GUI wraz z konsolą.
 
 <h2>Zadanie 3</h2>
+<h3>Dodawanie elementów do treeview i toastNotification.</h3>
+
 Kod z poprzedniego zadania należy edytować w następujący sposób:
 <ul>
 <li>Należy zmodyfikować funkcję przycisku, żeby dodawała wpisy z pól tekstowych do <b>treeview</b>.</li>
